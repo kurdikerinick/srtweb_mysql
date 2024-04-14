@@ -1,0 +1,38 @@
+.stud-container {
+  /* Add styles for the main container */
+  margin: 20px; /* Set margin for the main container */
+}
+
+.section {
+  /* Add styles for each section */
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Add border for section */
+  padding: 10px;
+}
+
+.headerRow {
+  /* Add styles for header row in each section */
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.title {
+  /* Add styles for title in header row */
+  flex: 1;
+  text-align: center;
+}
+
+.studentRow {
+  /* Add styles for student/tutor data row */
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.studentData {
+  /* Add styles for each data cell in student/tutor row */
+  flex: 1;
+  text-align: center;
+}

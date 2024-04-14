@@ -1,0 +1,60 @@
+/* assign.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.assign-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure at least 100% of the viewport height */
+}
+
+.search-bar {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.tables-container1 {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.tutors-list,
+.students-list,
+.assignments-list {
+    flex: 1;
+}
+
+.tutors-list,
+.students-list {
+    border-right: 1px solid #ccc;
+}
+
+.custom-ul {
+    list-style: none;
+    padding: 0;
+    background-color: white;
+}
+
+.custom-li {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.assignments-list {
+    background-color: #ddd;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: auto;
+}

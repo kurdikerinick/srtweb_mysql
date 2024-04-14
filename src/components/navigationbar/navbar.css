@@ -1,0 +1,315 @@
+html {
+  scroll-behavior: smooth;
+}
+.full-window {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../images/study.png') ;
+  background-repeat: no-repeat;
+  background-color:  #4786d2;
+}
+/* Navbar.css */
+.logo {
+  width: 40px; 
+  height: 40px;
+  margin-right: 10px;
+} */
+
+.home-one {
+  background-image: url('../../images/wallpaper.png'); /* Adjust the path based on your image location */
+  background-size: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  }
+.about-us {
+background-image:none;}
+
+ .sticky-navbar {
+  padding: 8px 25px; /* Adjusted padding for a smaller height */
+  display: flex;
+  
+  
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  align-items: center;
+  height: 60px;
+
+}
+.logo {
+  width: 80px;
+  height: auto;
+  margin-right: 700px;  
+}
+
+span{
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  background-color: #0056b3;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navigation items */
+ul {
+  list-style-type: none;
+  display: flex;
+  background-color: #0056b3;
+  align-items: center; /* Center items vertically */
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+ul li:last-child {
+  margin-right: 20px;
+}
+
+/* Navigation links */
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown span {
+  cursor: pointer;
+  font-size: 19px;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0056b3;
+  min-width: 160px;
+  padding: 10px;
+  z-index: 1;
+  font-size: 19px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  display: block;
+  color:#0056b3;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+/* Dropdown arrow */
+.dropdown span::after {
+  content: '\25BE'; /* Unicode character for dropdown arrow */
+  margin-left: 5px;
+}
+ 
+.container  {
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+
+.form {
+  min-width: 25rem;
+}
+
+.title {
+  
+  color: #212529;
+  font-size: 2.5rem;
+}
+
+/* Copyright.css */
+.copyright-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; 
+  background-color:#0056b3; /* Change the background color as desired */
+}
+
+.copyright-notice {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff; /* Match the container's background color */
+  color: black; /* Text color */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional shadow effect */
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1rem; /* Adjust the icon size as needed */
+}
+
+/* AboutUs.css */
+
+.about-us {
+  position: relative;
+  padding: 50px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+  height: 90vh;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 90px;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.circle-design {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.circle-design1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 70%;
+  background-color: #ffcc00; /* Circle background color */
+  margin: 10px;
+}
+
+.circle-1 {
+  background-color: #007bff; /* Customize the color of the first circle */
+}
+
+.circle-2 {
+  background-color: #00bcd4; /* Customize the color of the second circle */
+}
+
+
+
+/* Use GT Super font for headings and display content */
+.hero {
+  background-size: cover;
+  background-position: center right;
+  background-color:#ffffff;
+  color:#0056b3;
+  text-align: left;
+  padding: 100px 0;
+  font-family: 'GT Super', sans-serif; /* Use GT Super font for headings */
+  position: relative;
+  background-image: url('../../images/wallpaper.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.copy{
+  color: black;
+}
+.hero-content {
+  max-width: 800px;
+  margin: 0;
+  margin-right:auto; 
+  padding: 20px;/* Push content to the left */
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply 'Droid Serif' font to paragraphs */
+p {
+  font-family: 'Droid Serif', serif;
+  padding-top: 30px;
+  padding-left: 30px;
+
+  color: #212529;
+  font-size: 25px;
+}
+
+/* Add a bottom margin to each section (to space them out) */
+/* Add this to your CSS file */
+.cursive-fancy {
+  font-family:Georgia;
+  font-size: 45px; /* Adjust the font size as needed */
+  margin-bottom: 20px; /* Add space below the h1 */
+
+}
+
+.student-writing {
+  line-height: 45px;
+  font-family: 'student-writing-font', cursive; /* Replace 'student-writing-font' with the desired student writing font */
+  font-size: 20px; /* Adjust the font size as needed */
+  margin-left: 20px; /* Add a left margin gap */
+  text-align: left; /* Align text to the left */
+}
+
+
+
+/* ContactDetails.css */
+
+/* Style for the line */
+.line {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  display: flex; /* Use flexbox to align items horizontally */
+  
+}
+
+.contact-item {
+  margin-right: 20px; 
+  margin-left: 240px;
+  }
+
+
+

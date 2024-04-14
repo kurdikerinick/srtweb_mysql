@@ -1,0 +1,152 @@
+  
+  h1 {
+    margin-top: 0;
+    
+  }
+  
+  .bd-ul  {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  /* Style for the buttons */
+  button {
+   
+    background-color: #ffffff;
+    color: #0056b3;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+    height: 50px;
+    width:  150px ;/* Make buttons 100% width */
+    margin-bottom: 10px; /* Add vertical spacing between buttons */
+  }
+  
+  
+  button:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Add more styles as needed */
+  nav {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+  }
+  
+  /* Style for navigation links */
+  nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    margin: 0 15px; /* Add spacing between navigation links */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+  }
+  
+  /* Style for the active link */
+  nav a.active {
+    color: #0056b3;
+  }
+  
+
+/* accounts.css */
+
+.accounts {
+  text-align: center;
+  display:block ;
+}
+
+.accounts h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.accounts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.accounts li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.accounts li strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.accounts td{
+  font-size: 15px;
+}  
+
+/* accounts.css */
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student-table tr:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
+
+/* Enquiry.css */
+
+.enquiry-container {
+  background-color: #f0f0f0; /* Outer background color */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.user-table {
+  list-style-type: none;
+  padding: 0; /* Remove default padding */
+}
+
+.user-item {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styles as needed */
+.assignments-list {
+  overflow-y: auto;
+  /* Add other styles as needed */
+}

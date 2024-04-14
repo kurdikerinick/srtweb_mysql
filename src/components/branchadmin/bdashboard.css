@@ -1,0 +1,74 @@
+/* branchadmin.css */
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+  }
+  
+  .dashboard-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+height: 100vh;
+  }
+  
+  .dashboard-item {
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-link {
+    text-decoration: none;
+  }
+  
+  .dashboard-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 17px;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-button {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+  }
+  
+  .dropdown-button:hover {
+    background-color: #ddd;
+  }
+  
